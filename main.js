@@ -222,7 +222,7 @@ var assemblies = [
     "name": "Networking",
     "classes": [
       { "name": "Networking.Communication.CommunicatorClient", "rp": "Networking_CommunicatorClient.html", "cl": 51, "ucl": 48, "cal": 99, "tl": 250, "cb": 0, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "Networking.Communication.CommunicatorServer", "rp": "Networking_CommunicatorServer.html", "cl": 31, "ucl": 205, "cal": 236, "tl": 466, "cb": 0, "tb": 22, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "Networking.Communication.CommunicatorServer", "rp": "Networking_CommunicatorServer.html", "cl": 49, "ucl": 187, "cal": 236, "tl": 466, "cb": 3, "tb": 22, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Networking.CommunicationFactory", "rp": "Networking_CommunicationFactory.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 32, "cb": 2, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Networking.INotificationHandler", "rp": "Networking_INotificationHandler.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 24, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Networking.Queues.Packet", "rp": "Networking_Packet.html", "cl": 6, "ucl": 2, "cal": 8, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
@@ -230,7 +230,7 @@ var assemblies = [
       { "name": "Networking.Queues.ReceiveQueueListener", "rp": "Networking_ReceiveQueueListener.html", "cl": 7, "ucl": 60, "cal": 67, "tl": 150, "cb": 0, "tb": 6, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Networking.Queues.ReceivingQueue", "rp": "Networking_ReceivingQueue.html", "cl": 1, "ucl": 24, "cal": 25, "tl": 89, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Networking.Queues.SendingQueue", "rp": "Networking_SendingQueue.html", "cl": 29, "ucl": 53, "cal": 82, "tl": 201, "cb": 3, "tb": 16, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "Networking.Serialization.Serializer", "rp": "Networking_Serializer.html", "cl": 40, "ucl": 27, "cal": 67, "tl": 130, "cb": 3, "tb": 14, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "Networking.Serialization.Serializer", "rp": "Networking_Serializer.html", "cl": 52, "ucl": 15, "cal": 67, "tl": 130, "cb": 5, "tb": 14, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Networking.Sockets.PacketString", "rp": "Networking_PacketString.html", "cl": 0, "ucl": 31, "cal": 31, "tl": 90, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Networking.Sockets.SendQueueListenerClient", "rp": "Networking_SendQueueListenerClient.html", "cl": 6, "ucl": 48, "cal": 54, "tl": 115, "cb": 0, "tb": 8, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Networking.Sockets.SendQueueListenerServer", "rp": "Networking_SendQueueListenerServer.html", "cl": 10, "ucl": 118, "cal": 128, "tl": 248, "cb": 0, "tb": 28, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
@@ -239,17 +239,17 @@ var assemblies = [
   {
     "name": "Updater",
     "classes": [
-      { "name": "Updater.AppConstants", "rp": "Updater_AppConstants.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 36, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "Updater.AppConstants", "rp": "Updater_AppConstants.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 37, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Updater.BinarySemaphore", "rp": "Updater_BinarySemaphore.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 45, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "Updater.Client", "rp": "Updater_Client.html", "cl": 145, "ucl": 64, "cal": 209, "tl": 346, "cb": 33, "tb": 67, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "Updater.Client", "rp": "Updater_Client.html", "cl": 160, "ucl": 43, "cal": 203, "tl": 335, "cb": 37, "tb": 67, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Updater.DataPacket", "rp": "Updater_DataPacket.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 57, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "Updater.DirectoryMetadataComparer", "rp": "Updater_DirectoryMetadataComparer.html", "cl": 71, "ucl": 1, "cal": 72, "tl": 183, "cb": 16, "tb": 16, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "Updater.DirectoryMetadataGenerator", "rp": "Updater_DirectoryMetadataGenerator.html", "cl": 32, "ucl": 0, "cal": 32, "tl": 86, "cb": 6, "tb": 8, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "Updater.DirectoryMetadataComparer", "rp": "Updater_DirectoryMetadataComparer.html", "cl": 71, "ucl": 1, "cal": 72, "tl": 183, "cb": 18, "tb": 20, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "Updater.DirectoryMetadataGenerator", "rp": "Updater_DirectoryMetadataGenerator.html", "cl": 31, "ucl": 0, "cal": 31, "tl": 85, "cb": 6, "tb": 8, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Updater.FileContent", "rp": "Updater_FileContent.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 50, "cb": 4, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Updater.FileDetail", "rp": "Updater_FileDetail.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 183, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Updater.FileMetadata", "rp": "Updater_FileMetadata.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 31, "cb": 4, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Updater.MetadataDifference", "rp": "Updater_MetadataDifference.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 183, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "Updater.Server", "rp": "Updater_Server.html", "cl": 104, "ucl": 255, "cal": 359, "tl": 618, "cb": 13, "tb": 68, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "Updater.Server", "rp": "Updater_Server.html", "cl": 106, "ucl": 249, "cal": 355, "tl": 611, "cb": 13, "tb": 70, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Updater.ToolAssemblyLoader", "rp": "Updater_ToolAssemblyLoader.html", "cl": 73, "ucl": 11, "cal": 84, "tl": 150, "cb": 32, "tb": 36, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "Updater.Utils", "rp": "Updater_Utils.html", "cl": 54, "ucl": 16, "cal": 70, "tl": 160, "cb": 6, "tb": 10, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
@@ -257,7 +257,7 @@ var assemblies = [
     "name": "ViewModels",
     "classes": [
       { "name": "ViewModels.Updater.ClientViewModel", "rp": "ViewModels_ClientViewModel.html", "cl": 15, "ucl": 0, "cal": 15, "tl": 47, "cb": 1, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "ViewModels.Updater.CloudViewModel", "rp": "ViewModels_CloudViewModel.html", "cl": 0, "ucl": 209, "cal": 209, "tl": 376, "cb": 0, "tb": 130, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "ViewModels.Updater.CloudViewModel", "rp": "ViewModels_CloudViewModel.html", "cl": 94, "ucl": 115, "cal": 209, "tl": 376, "cb": 68, "tb": 130, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "ViewModels.Updater.FileChangeNotifier", "rp": "ViewModels_FileChangeNotifier.html", "cl": 73, "ucl": 10, "cal": 83, "tl": 201, "cb": 15, "tb": 24, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "ViewModels.Updater.LogServiceViewModel", "rp": "ViewModels_LogServiceViewModel.html", "cl": 49, "ucl": 0, "cal": 49, "tl": 178, "cb": 3, "tb": 6, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "ViewModels.Updater.ServerViewModel", "rp": "ViewModels_ServerViewModel.html", "cl": 51, "ucl": 32, "cal": 83, "tl": 187, "cb": 8, "tb": 30, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
@@ -277,22 +277,10 @@ var riskHotspotMetrics = [
 
 var riskHotspots = [
   {
-    "assembly": "ViewModels", "class": "ViewModels.Updater.CloudViewModel", "reportPath": "ViewModels_CloudViewModel.html", "methodName": "ServerHasMoreData(System.String,System.String)", "methodShortName": "ServerHasMoreData(...)", "fileIndex": 0, "line": 216,
+    "assembly": "Updater", "class": "Updater.Server", "reportPath": "Updater_Server.html", "methodName": "MetadataHandler(Updater.DataPacket,Networking.Communication.ICommunicator,Updater.Server,System.String)", "methodShortName": "MetadataHandler(...)", "fileIndex": 0, "line": 263,
     "metrics": [
-      { "value": 2970, "exceeded": true },
-      { "value": 54, "exceeded": true },
-    ]},
-  {
-    "assembly": "ViewModels", "class": "ViewModels.Updater.CloudViewModel", "reportPath": "ViewModels_CloudViewModel.html", "methodName": "CloudHasMoreData(System.String,System.String)", "methodShortName": "CloudHasMoreData(...)", "fileIndex": 0, "line": 276,
-    "metrics": [
-      { "value": 2756, "exceeded": true },
-      { "value": 52, "exceeded": true },
-    ]},
-  {
-    "assembly": "Updater", "class": "Updater.Server", "reportPath": "Updater_Server.html", "methodName": "MetadataHandler(Updater.DataPacket,Networking.Communication.ICommunicator,Updater.Server,System.String)", "methodShortName": "MetadataHandler(...)", "fileIndex": 0, "line": 269,
-    "metrics": [
-      { "value": 702, "exceeded": true },
-      { "value": 26, "exceeded": true },
+      { "value": 812, "exceeded": true },
+      { "value": 28, "exceeded": true },
     ]},
   {
     "assembly": "Networking", "class": "Networking.Sockets.SendQueueListenerServer", "reportPath": "Networking_SendQueueListenerServer.html", "methodName": "Listen()", "methodShortName": "Listen()", "fileIndex": 0, "line": 90,
@@ -307,7 +295,7 @@ var riskHotspots = [
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Updater", "class": "Updater.Server", "reportPath": "Updater_Server.html", "methodName": "ClientFilesHandler(Updater.DataPacket,Networking.Communication.ICommunicator,Updater.Server,System.String)", "methodShortName": "ClientFilesHandler(...)", "fileIndex": 0, "line": 477,
+    "assembly": "Updater", "class": "Updater.Server", "reportPath": "Updater_Server.html", "methodName": "ClientFilesHandler(Updater.DataPacket,Networking.Communication.ICommunicator,Updater.Server,System.String)", "methodShortName": "ClientFilesHandler(...)", "fileIndex": 0, "line": 470,
     "metrics": [
       { "value": 156, "exceeded": true },
       { "value": 12, "exceeded": false },
@@ -325,7 +313,7 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "Updater", "class": "Updater.Client", "reportPath": "Updater_Client.html", "methodName": "DifferencesHandler(Updater.DataPacket,Networking.Communication.ICommunicator)", "methodShortName": "DifferencesHandler(...)", "fileIndex": 0, "line": 228,
+    "assembly": "Updater", "class": "Updater.Client", "reportPath": "Updater_Client.html", "methodName": "DifferencesHandler(Updater.DataPacket,Networking.Communication.ICommunicator)", "methodShortName": "DifferencesHandler(...)", "fileIndex": 0, "line": 217,
     "metrics": [
       { "value": 117, "exceeded": true },
       { "value": 34, "exceeded": true },
@@ -335,6 +323,18 @@ var riskHotspots = [
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "ViewModels", "class": "ViewModels.Updater.CloudViewModel", "reportPath": "ViewModels_CloudViewModel.html", "methodName": "CloudHasMoreData(System.String,System.String)", "methodShortName": "CloudHasMoreData(...)", "fileIndex": 0, "line": 276,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 52, "exceeded": true },
+    ]},
+  {
+    "assembly": "ViewModels", "class": "ViewModels.Updater.CloudViewModel", "reportPath": "ViewModels_CloudViewModel.html", "methodName": "ServerHasMoreData(System.String,System.String)", "methodShortName": "ServerHasMoreData(...)", "fileIndex": 0, "line": 216,
+    "metrics": [
+      { "value": 54, "exceeded": true },
+      { "value": 54, "exceeded": true },
     ]},
   {
     "assembly": "Networking", "class": "Networking.Communication.CommunicatorServer", "reportPath": "Networking_CommunicatorServer.html", "methodName": "FindIpAddress()", "methodShortName": "FindIpAddress()", "fileIndex": 0, "line": 167,
@@ -361,13 +361,7 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Updater", "class": "Updater.Server", "reportPath": "Updater_Server.html", "methodName": "PacketDemultiplexer(System.String,Networking.Communication.ICommunicator,Updater.Server,System.String)", "methodShortName": "PacketDemultiplexer(...)", "fileIndex": 0, "line": 194,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "ViewModels", "class": "ViewModels.Updater.CloudViewModel", "reportPath": "ViewModels_CloudViewModel.html", "methodName": "RemoveNAEntries(System.Collections.Generic.List`1<ViewModels.Updater.CloudViewModel/FileData>)", "methodShortName": "RemoveNAEntries(...)", "fileIndex": 0, "line": 203,
+    "assembly": "Updater", "class": "Updater.Server", "reportPath": "Updater_Server.html", "methodName": "PacketDemultiplexer(System.String,Networking.Communication.ICommunicator,Updater.Server,System.String)", "methodShortName": "PacketDemultiplexer(...)", "fileIndex": 0, "line": 188,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
